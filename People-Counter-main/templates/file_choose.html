@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="{{ url_for('static', filename='css/index.css') }}"
+      rel="stylesheet"
+    />
+    <title>People Counter</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-light"
+      style="
+        background-image: linear-gradient(
+          to bottom,
+          rgb(184, 179, 179),
+          rgb(255, 255, 255)
+        );
+      "
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+            <img class="sheep" src="static/images/sheep.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            People Counter
+          </a>
+      </div>
+    </nav>
+    
+  <div class="container-daddy">
+    <img  class="container-bg" src="static/images/bg2.jpg" alt=""/>
+    <div class="container ">
+      <div class="row frame video-cont" >
+        <div style="display: inline-block;">
+          <h2 style="font-size:2rem; margin: 35px;">Step 1 : Select the File</h2>
+          <h2 style="font-size: 1rem;"> After choosing the file click upload and you will be directed toward choosing the detection technique</h2>
+        <form action="/location" method='post' enctype="multipart/form-data" style="margin: 35px;">
+            <div class="input-group">
+                <input type="file" name='file' class="form-control" value='./'>
+                <button class="btn btn-outline-secondary" type="submit" id="inputGroupFileAddon04">Upload</button>
+              </div>
+          </form>
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+
+    
+    <div class="footer">
+      <div class="container">
+        <h2>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </h2>
+        <div class="p-div">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu mi
+            bibendum neque egestas congue quisque egestas. Odio tempor orci
+            dapibus ultrices in iaculis nunc. Faucibus interdum posuere lorem
+            ipsum dolor. Amet commodo nulla facilisi nullam vehicula ipsum a
+            arcu cursus. Egestas erat imperdiet sed euismod nisi. Est
+            ullamcorper eget nulla facilisi. Iaculis urna id volutpat lacus
+            laoreet non. Sit amet consectetur adipiscing elit. Nisl vel pretium
+            lectus quam id leo in. Neque egestas congue quisque egestas diam in
+            arcu. Convallis tellus id interdum velit laoreet id donec.
+          </p>
+          <img src="static/images/machine-learning.png" width="20%"/>
+        </div>
+      </div>
+    </div>
+    <div class="p-div">
+        <img src="static/images/20945401.jpg" width="20%"/>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu mi
+          bibendum neque egestas congue quisque egestas. Odio tempor orci
+          dapibus ultrices in iaculis nunc. Faucibus interdum posuere lorem
+          ipsum dolor. Amet commodo nulla facilisi nullam vehicula ipsum a
+          arcu cursus. Egestas erat imperdiet sed euismod nisi. Est
+          ullamcorper eget nulla facilisi. Iaculis urna id volutpat lacus
+          laoreet non. Sit amet consectetur adipiscing elit. Nisl vel pretium
+          lectus quam id leo in. Neque egestas congue quisque egestas diam in
+          arcu. Convallis tellus id interdum velit laoreet id donec.
+        </p>
+        
+      </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

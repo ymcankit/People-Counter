@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Uchen&display=swap");
+
+body {
+  text-align: center;
+ 
+  margin: 0;
+  padding: 0;
+}
+.container-daddy{
+  position: relative;
+}
+.container-bg{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 80vh;
+  opacity: 0.3;
+}
+.container{
+  position: relative;
+}
+
+h2{
+    font-family: "Uchen", serif; 
+    
+}
+.frame {
+  padding: 2%;
+  min-height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-brand {
+  transition: all .2s ease-in-out;
+  margin: 2px;
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 6px;
+  margin-left: 3%;
+  font-family: "Uchen", serif;
+  font-size: 1.5rem;
+}
+.sheep{
+    margin-top: -2.5px;
+}
+.video-cont {
+  margin: 2%;
+}
+.video-frame {
+  border-radius: 21px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+nav ,.footer{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand:hover ,.p-div:hover{
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p-div{
+  transition: all .2s ease-in-out;
+    text-align: center;
+    display: flex;
+    margin: 3%;
+}
+.p-div p{
+    margin: 20px;
+}
+.footer {
+  position: relative;
+  z-index: 100;
+  padding: 5%;
+  background-image: linear-gradient(
+    to right,
+    rgb(252, 165, 4),
+    rgb(238, 133, 64)
+  );
+}
